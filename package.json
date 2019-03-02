@@ -1,0 +1,21 @@
+{
+  "name": "arenabot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Stephen Ferrari <sferrari@wayfair.com>",
+  "description": "A simple helpful robot for your Company",
+  "dependencies": {
+    "hubot": "^3.3.0",
+    "hubot-conversation": "^1.1.1",
+    "hubot-help": "^1.0.1",
+    "hubot-scripts": "^2.17.2",
+    "hubot-slack": "^4.6.0",
+    "pm2": "^3.3.1"
+  },
+  "devDependencies": {
+    "hubot-diagnostics": "^1.0.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

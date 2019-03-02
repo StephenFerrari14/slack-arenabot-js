@@ -1,2 +1,3 @@
-# arenabot
-Slackbot implementation for bot battles
+Arenabot
+
+Slackbot implementation for robot battles in Slack
