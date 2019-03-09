@@ -104,10 +104,7 @@ module.exports = (robot) => {
       res.reply('Enemy doesn\'t have a robot.');
       return;
     }
-    // See if the user accepts a challenge?
-    // const dialog = new Conversation(robot, 'user');
-    // // const challengeeMessage = robot.messageRoom(challengee, 'Would you like to challenge @' + challengee + ' in a Slack Bot Battle!');
-    // console.log(challengeeMessage);
+
     try {
       const winner = factory.startFight(robert, robert2);
       if (factory.gainXp(robot, winner, 1)) {

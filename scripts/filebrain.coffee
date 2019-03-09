@@ -1,5 +1,5 @@
 # Description:
-#   None
+#   Filebrain implementation used to store data from hubot brain to file so it can be loaded when the bot starts to persist data.
 #
 # Dependencies:
 #   None
